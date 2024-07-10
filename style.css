@@ -1,0 +1,114 @@
+.mochiy-pop-one-regular {
+  font-family: "Mochiy Pop One", sans-serif;
+    color: #FF9F66; 
+    text-shadow: -1px -1px 0 #002379, 1px -1px 0 #002379, -1px 1px 0 #002379, 1px 1px 0 #002379; /* テキストの縁取り */
+    font-size: 4rem;
+}
+.zen-maru-gothic-regular {
+  font-family: "Zen Maru Gothic", serif;
+  color: #002379;
+}
+.background {
+  background-color: #FFFAE6;
+  padding-top: 50px;
+}
+.hover-button {
+  background-color: #FF5F00;
+  border: none;
+  color: white;
+    padding: 10px 20px;
+    text-decoration: none; /* デフォルトのリンクの下線を削除 */
+    border: none;
+    cursor: pointer;
+    border-radius: 5px; /* 角を丸くする場合 */
+    text-align: center; /* テキストを中央に配置 */
+    font-family: "Mochiy Pop One", sans-serif;
+}
+.hover-button:hover {
+  background-color: #FF9F66; /* カーソルがボタンの上に置かれたときの色 */
+}
+.image-container {
+  width: 600px; 
+  height: 300px;
+  object-fit: cover;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  border-color: #002379;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-around; 
+  padding: 20px; /* コンテナの内側の余白 */
+}
+
+.card {
+  background-color: #FFFAE6; 
+  border: 1px solid #002379; 
+  border-radius: 8px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 影 */
+  padding: 16px;
+  width: 300px;
+  margin-bottom: 30px;
+  text-align: center;
+  display: inline-flex; /* カードを横並びにする */
+}
+
+.card img {
+  max-width: 100%; /* 画像の幅をカードにフィットさせる */
+  height: auto; /* 画像の高さを自動調整 */
+  border-radius: 8px 8px 0 0; /* 上部の角を丸くする */
+}
+
+/* ボタンのスタイル */
+.card-btn {
+  background-color: #FF5F00; 
+  color: #fff;
+  text-decoration: none; 
+  border: none; /* ボーダーをなしに */
+  padding: 10px 20px; /* 内側の余白 */
+  border-radius: 5px; /* 角を丸くする */
+  cursor: pointer; /* ポインターを表示 */
+  margin-top: 10px; 
+  font-family: "Mochiy Pop One", sans-serif;
+}
+.card-btn:hover {
+  background-color: #FF9F66; /* ホバー時の背景色 */
+}
+.card-text {
+    text-align: left;
+    font-family: "Zen Maru Gothic", serif;
+    color: #002379;
+  }
+.card-title {
+  font-family: "Mochiy Pop One", sans-serif;
+  font-weight: bold;
+  color: #002379;
+}
+#message {
+  background-color: #FFFAE6;
+    text-align: center;
+  }
+  #message-us {
+    font-family: "Mochiy Pop One", sans-serif;
+    font-weight: bold;
+    color: #FF9F66;
+  }
+.lead {
+  font-family: "Zen Maru Gothic", serif;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  font-size: 16px;
+  color: #002379;
+  padding: 50px
+}
+.message-container + #footer {
+  border-top: 1px solid #FFFAE6 
+}
+#footer {
+  color:  gray;
+  padding: 32px;
+  margin: 48px;
+}
+
